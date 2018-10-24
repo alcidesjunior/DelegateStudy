@@ -12,6 +12,10 @@
 		1ADBDC5F2180C60E006EA6BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADBDC5D2180C60E006EA6BD /* Main.storyboard */; };
 		1ADBDC612180C610006EA6BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADBDC602180C610006EA6BD /* Assets.xcassets */; };
 		1ADBDC642180C610006EA6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADBDC622180C610006EA6BD /* LaunchScreen.storyboard */; };
+		1ADBDC6C2180C657006EA6BD /* PessoaStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBDC6B2180C657006EA6BD /* PessoaStruct.swift */; };
+		1ADBDC6F2180C765006EA6BD /* PessoaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBDC6E2180C765006EA6BD /* PessoaTableViewCell.swift */; };
+		1ADBDC722180D247006EA6BD /* PessoaDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBDC712180D247006EA6BD /* PessoaDelegate.swift */; };
+		1ADBDC742180D2E4006EA6BD /* PessoaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBDC732180D2E4006EA6BD /* PessoaDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		1ADBDC602180C610006EA6BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ADBDC632180C610006EA6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ADBDC652180C610006EA6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADBDC6B2180C657006EA6BD /* PessoaStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaStruct.swift; sourceTree = "<group>"; };
+		1ADBDC6E2180C765006EA6BD /* PessoaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaTableViewCell.swift; sourceTree = "<group>"; };
+		1ADBDC712180D247006EA6BD /* PessoaDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaDelegate.swift; sourceTree = "<group>"; };
+		1ADBDC732180D2E4006EA6BD /* PessoaDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		1ADBDC582180C60E006EA6BD /* DelegateStudy */ = {
 			isa = PBXGroup;
 			children = (
+				1ADBDC752180DAE8006EA6BD /* Cells */,
+				1ADBDC702180D22A006EA6BD /* Protocols */,
+				1ADBDC6D2180C669006EA6BD /* Structs */,
 				1ADBDC592180C60E006EA6BD /* AppDelegate.swift */,
 				1ADBDC5B2180C60E006EA6BD /* ViewController.swift */,
 				1ADBDC5D2180C60E006EA6BD /* Main.storyboard */,
 				1ADBDC602180C610006EA6BD /* Assets.xcassets */,
 				1ADBDC622180C610006EA6BD /* LaunchScreen.storyboard */,
 				1ADBDC652180C610006EA6BD /* Info.plist */,
+				1ADBDC732180D2E4006EA6BD /* PessoaDetailsViewController.swift */,
 			);
 			path = DelegateStudy;
+			sourceTree = "<group>";
+		};
+		1ADBDC6D2180C669006EA6BD /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				1ADBDC6B2180C657006EA6BD /* PessoaStruct.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		1ADBDC702180D22A006EA6BD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1ADBDC712180D247006EA6BD /* PessoaDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1ADBDC752180DAE8006EA6BD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1ADBDC6E2180C765006EA6BD /* PessoaTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADBDC6C2180C657006EA6BD /* PessoaStruct.swift in Sources */,
 				1ADBDC5C2180C60E006EA6BD /* ViewController.swift in Sources */,
+				1ADBDC742180D2E4006EA6BD /* PessoaDetailsViewController.swift in Sources */,
+				1ADBDC6F2180C765006EA6BD /* PessoaTableViewCell.swift in Sources */,
+				1ADBDC722180D247006EA6BD /* PessoaDelegate.swift in Sources */,
 				1ADBDC5A2180C60E006EA6BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
