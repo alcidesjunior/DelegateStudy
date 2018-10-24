@@ -23,5 +23,3 @@ class PessoaDetailsViewController: UIViewController {
     }
 
 }
-
- 
